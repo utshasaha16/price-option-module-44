@@ -1,4 +1,5 @@
 import "./App.css";
+import LineChart from "./components/LineChart/LineChart";
 import NevBar from "./components/NevBar/NevBar";
 import PriceOptions from "./components/PriceOptions/PriceOptions";
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <NevBar></NevBar>
      <PriceOptions></PriceOptions>
+     <LineChart></LineChart>
     </>
   );
 }
