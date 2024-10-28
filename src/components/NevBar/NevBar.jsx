@@ -25,7 +25,7 @@ const NevBar = () => {
             </div>
             <ul className={`md:flex duration-1000 absolute  rounded-xl bg-yellow-500 md:static ${nevOpen ? 'top-16' : '-top-60'}`}>
                 {
-                    routes.map(route => <Link route={route}></Link>)
+                    routes.map(route => <Link key={route.id} route={route}></Link>)
                 }
             </ul>
         </nav>
